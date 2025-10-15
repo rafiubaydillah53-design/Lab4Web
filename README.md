@@ -43,5 +43,29 @@ Membuat struktur HTML dasar dengan judul Box Element.
   </header>
 </body>
 </html>
-.
+
+![Screenshot 1](Screenshot_1.png)
+screenshot tampilan awal lab4_box.html di browser
+
+2️⃣ Menambahkan Box Element
+
+Menambahkan elemen <div> untuk membuat tiga box berwarna.
+
+<section>
+  <div class="div1">Div 1</div>
+  <div class="div2">Div 2</div>
+  <div class="div3">Div 3</div>
+</section>
+
+<style>
+  div {
+    float: left;
+    padding: 10px;
+  }
+  .div1 { background: red; }
+  .div2 { background: yellow; }
+  .div3 { background: green; }
+</style>
+
+![Screenshot 3](Screenshot_3.png)
 
